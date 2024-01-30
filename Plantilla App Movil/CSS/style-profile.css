@@ -1,0 +1,212 @@
+
+/*ESTILOS GENERALES Y DE LA PLANTILLA DE PRODUCTOS*/
+
+*{
+    font-family: comfortaa, cursive;
+    color: #fff;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+#app {
+    display: flexbox;
+    justify-content: center;
+    background-color: #fff56dbb;
+    width: 350px;
+    height: 700px;
+    border-radius: 1pc;
+}
+
+#main #fBar, #main #footBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fBar {
+    height: 50px;
+    padding: 10px;
+    background-color: #1d3019;
+    transform: translate(0%, -10%);
+    border-radius: 1pc 1pc 0px 0px;
+    color: aliceblue;
+}
+
+#fBar > div > input {
+    width: 250px;
+    height: 30px;
+    border-radius: 1pc;
+    background-color: #CDCDCD;
+    padding: 10px;
+}
+
+#fBar > div > img, #footBar > div > img {
+    width: 30px;
+}
+
+#cont::-webkit-scrollbar {
+    width: 0px;
+}
+
+#cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.prods {
+    background-color: #923;
+    width: 150px;
+    height: 250px;
+    border-radius: 1pc;
+}
+
+#footBar {
+    height: 60px;
+    padding: 0px 20px;
+    background-color: #1d3019;
+    transform: translate(0%, 10%);
+    border-radius: 0px 0px 1pc 1pc;
+}
+
+#imgP {
+    width: 100%;
+    border-radius: 1pc;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 0px 15px;
+}
+
+.info button {
+    border-radius: 1pc;
+    background-color: #2D4263;
+    color: #CDCDCD;
+    border: none;
+}
+
+.info > h4 {
+    margin: 0px 0px 10px 0px;
+}
+
+.icons {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #CDCDCD;
+}
+
+/* Estilos del formulario de edición de perfil*/
+#edit-info {
+    background-color: #923;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#edit-info h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#edit-info label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#edit-info input[type="text"],
+#edit-info input[type="email"],
+#edit-info input[type="password"] {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #2D4263;
+}
+
+#edit-info button[type="submit"],
+#edit-info button[type="button"] {
+    width: 100%;
+    height: 40px;
+    background-color: #2D4263;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#edit-info button[type="submit"]:hover,
+#edit-info button[type="button"]:hover {
+    background-color: #1d2d45; 
+}
+
+#edit-info button[type="submit"] {
+    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#cancel-edit-btn {
+    background-color: #2D4263; 
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#cancel-edit-btn:hover {
+    background-color: #1d2d45;
+}
+
+#personal-info {
+    background-color: #923;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#personal-info h2 {
+    margin-bottom: 20px;
+    color: #CDCDCD;
+}
+
+#personal-info p {
+    margin-bottom: 10px;
+}
+
+#edit-info-btn {
+    background-color: #2D4263;
+    color: #CDCDCD;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#edit-info-btn:hover {
+    background-color: #1d2d45;
+}

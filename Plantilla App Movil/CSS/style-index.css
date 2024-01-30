@@ -1,0 +1,130 @@
+/*ESTILOS GENERALES Y DE LA PLANTILLA DE PRODUCTOS*/
+
+*{
+    font-family: comfortaa, cursive;
+    color: #fff;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+#app {
+    display: flexbox;
+    justify-content: center;
+    background-color: #fff56dbb;
+    width: 350px;
+    height: 700px;
+    border-radius: 1pc;
+}
+
+#main #fBar, #main #footBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fBar {
+    height: 50px;
+    padding: 10px;
+    background-color: #1d3019;
+    transform: translate(0%, -10%);
+    border-radius: 1pc 1pc 0px 0px;
+    color: aliceblue;
+}
+
+#fBar > div > input {
+    width: 250px;
+    height: 40px;
+    border-radius: 0.5pc;
+    color: #000;
+    font-size: 16px;
+    background-color: #CDCDCD;
+    padding: 5px;
+}
+
+#fBar > div > img, #footBar > div > img {
+    width: 30px;
+}
+
+.cont::-webkit-scrollbar,
+.scrolls-x::-webkit-scrollbar {
+    width: 0px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 10px;
+    overflow-x: scroll;
+    flex: 0 0 auto;
+}
+
+.prods {
+    background-color: #923;
+    width: 150px;
+    height: 250px;
+    border-radius: 1pc;
+    flex: 0 0 auto;
+}
+
+#footBar {
+    height: 60px;
+    padding: 0px 20px;
+    background-color: #1d3019;
+    transform: translate(0%, 10%);
+    border-radius: 0px 0px 1pc 1pc;
+}
+
+#imgP {
+    width: 100%;
+    border-radius: 1pc;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 0px 15px;
+}
+
+.info button {
+    border-radius: 1pc;
+    background-color: #2D4263;
+    color: #CDCDCD;
+    border: none;
+}
+
+.info > h4 {
+    margin: 0px 0px 10px 0px;
+}
+
+.icons {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #CDCDCD;
+}
+
+.scrolls-x{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.scrolls-x h2{
+    color: #000;
+    align-self: center;
+}

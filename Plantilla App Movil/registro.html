@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style-reg.css" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="main">
+            <div id="fBar">
+                <div class="menu">
+                    <img id="logo" src="/imagenes/LOGO.png" />
+                </div>
+                <div class="menu">
+                    <h4>PAPER PLUS</h4>
+                </div>
+                <div class="menu">
+                    <img id="logo" src="/imagenes/cerrar-sesion.png" />
+                </div>
+            </div>
+            <div id="cont">
+                <div id="register-container">
+                    <form id="register-form">
+                        <h3>REGISTRO</h3>
+                        <img src="imagenes/log.png">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Nombre" required />
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" placeholder="Apellido" required />
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" placeholder="Usuario" required />
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" placeholder="Correo electrónico" required />
+                        <label for="telefono">Número de teléfono:</label>
+                        <input type="tel" id="telefono" placeholder="Número de teléfono" required />
+                        <label for="pregunta">Seleccionar pregunta secreta:</label>
+                        <select id="pregunta">
+                            <option value="" disabled selected>Seleccionar pregunta secreta</option>
+                            <option value="1">¿Cuál es el nombre de tu primera mascota?</option>
+                            <option value="2">¿Cuál es tu comida favorita?</option>
+                            <option value="3">¿Cuál es tu ciudad natal?</option>
+                        </select>
+                        <label for="respuesta">Respuesta a la pregunta secreta:</label>
+                        <input type="text" id="respuesta" placeholder="Respuesta a la pregunta secreta" required />
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" id="contrasena" placeholder="Contraseña" required />
+                        <label for="confirmar-contrasena">Confirmar contraseña:</label>
+                        <input type="password" id="confirmar-contrasena" placeholder="Confirmar contraseña" required />
+                        <button type="submit">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+            <div id="footBar">
+                <div class="icons">
+                    <img src="/imagenes/hogar (1).png" />
+                    <span>Inicio</span>
+                </div>
+                <div class="icons">
+                    <img src="/imagenes/papeleria.png" />
+                    <span>Productos</span>
+                </div>
+                <div class="icons">
+                    <img src="/imagenes/carrito.png" />
+                    <span>Carrito</span>
+                </div>
+                <div class="icons">
+                    <img src="/imagenes/usuario.png" />
+                    <span>Mi Perfil</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
